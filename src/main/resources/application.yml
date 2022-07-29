@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: jdbc:mariadb://database-1.c170uyhdihtk.us-west-1.rds.amazonaws.com:3306/registration
+    driver-class-name: org.mariadb.jdbc.Driver
+    username: rgst
+    password: rs^7953
+  jpa:
+    open-in-view: false
+    generate-ddl: true
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+server:
+  address: localhost
+  port: 80
